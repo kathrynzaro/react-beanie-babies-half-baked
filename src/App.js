@@ -12,13 +12,6 @@ export default function App() {
   return (
     <Router>
       <div className='App'>
-        <div>
-          <ul>
-            <li>
-              <NavLink exact activeClassName='active-link' to="/">List Page</NavLink>
-            </li>
-          </ul>
-        </div>
         <Switch>
           <Route exact path="/">
             <BeaniesPage />
